@@ -91,7 +91,7 @@ docker pull selenoid/vnc:firefox_79.0
 docker pull selenoid/vnc:opera_70.0
 docker pull selenoid/video-recorder:latest-release
 ```
-### 4、启动docker-compose
+### 4、docker-compose启动selenoid服务
 ```python
 docker-compose -f docker-compose.yml
 ```
