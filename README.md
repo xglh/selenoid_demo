@@ -1,9 +1,9 @@
 # selenoid web自动化远程执行器使用实践
-demo地址：
-##一、简介
-selenoid是一款开源的web自动化远程执行器，与seleium grid功能类似，具有seleium grid不具备的实时画面和录屏的有点，具体对比如下 
+demo地址：https://github.com/xglh/selenoid_demo
+## 一、简介
+selenoid是一款开源的web自动化远程执行器，与seleium grid功能类似，具有seleium grid不具备的实时画面和录屏的优点，具体对比如下 
 
-| 对比项 | seleium grid| Selenoid |
+| 对比项 | seleium grid| selenoid |
 | ------ | ------ | ------ |
 | 实时预览 | N | Y |
 | 录屏 | N | Y |
@@ -182,7 +182,7 @@ class TestClass:
 chrome支持48.0~78.0[版本](https://hub.docker.com/r/selenoid/vnc_chrome/tags?page=1&ordering=last_updated)  
 firefox支持3.6~83.0[版本](https://hub.docker.com/r/selenoid/vnc_firefox/tags?page=1&ordering=last_updated)  
 opera支持33.0~72.0[版本](https://hub.docker.com/r/selenoid/vnc_opera/tags?page=1&ordering=last_updated)  
-找到对应版本号，加入到browsers.json中
+找到对应版本号，pull镜像，并将版本号加入到browsers.json中
 ### 2、非docker接入
 以IE为例
 #### 1)、下载[IEDriverServer](http://www.seleniumhq.org/download/)
