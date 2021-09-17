@@ -93,7 +93,7 @@ docker pull selenoid/video-recorder:latest-release
 ```
 ### 4、docker-compose启动selenoid服务
 ```python
-docker-compose -f docker-compose.yml
+docker-compose -f docker-compose.yml up -d
 ```
 ### 5、打开selenoid控制台
 http://ip:4444
